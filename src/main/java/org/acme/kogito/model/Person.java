@@ -11,7 +11,7 @@ public class Person {
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(final String name) {
 		this.name = name;
 	}
 
@@ -19,7 +19,7 @@ public class Person {
 		return age;
 	}
 
-	public void setAge(int age) {
+	public void setAge(final int age) {
 		this.age = age;
 	}
 
@@ -27,7 +27,7 @@ public class Person {
 		return adult;
 	}
 
-	public void setAdult(boolean adult) {
+	public void setAdult(final boolean adult) {
 		this.adult = adult;
 	}
 
