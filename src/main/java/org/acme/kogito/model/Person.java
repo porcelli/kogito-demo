@@ -1,5 +1,6 @@
 package org.acme.kogito.model;
 
+// POJO representing a Person
 public class Person {
 
 	private String name;
